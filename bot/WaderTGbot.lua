@@ -254,14 +254,11 @@ function create_config( )
     about_text = [[WaderTG v4
 An advanced administration bot based on TG-CLI written in Lua
 
-Admins
-@mohammadsdi4799
-@iphonei
-@Amin1779
-@Oo_hamed_ice_fuckeram_oO
+Admin
+@Grand_Boy
 
 Our channels
-@WaderTGTeam
+@HiddenProgrammers
 
 thankyou for all admins bot WaderTG
 ]],
@@ -348,7 +345,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use res, setowner, commands
 
-channel:@WaderTGTeam
+channel:@HiddenProgrammers
 ]],
     help_text = [[
 Commands list :
@@ -478,7 +475,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-channel:@WaderTGTeam
+channel:@HiddenProgrammers
 ]],
 	help_text_super =[[
 WaderTG SuperGroup Commands :
@@ -659,7 +656,8 @@ To show office user
 Text-to-voice
 =========================
 *Only from markes "!" , "/" , "#" use*
-Channel:@WaderTGTeam
+Channel: @HiddenProgrammers
+Bot admin: @Grand_Boy
 ]],
   }
   serialize_to_file(config, './data/config.lua')
